@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background-color: #1e201e;
+}
+header {
+    background-color: #1a1b1a;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+h3 {
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #00ccdd;
+    transition: 0.3s ease;
+}
+h3:hover {
+    color: #7CF5FF;
+    text-shadow: 0 0 25px #7CF5FF,
+                 0 0 50px #7CF5FF;
+    transform: scale(1.1);
+}
+nav {
+    display: flex;
+    padding-right: 1%;
+}
+a {
+    width: 9rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: #00ccdd;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+a:hover {
+    color: #7CF5FF;
+    text-shadow: 0 0 25px #7CF5FF,
+                 0 0 50px #7CF5FF;
+    transform: scale(1.1);
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rimuru {
+    width: 15em;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    transition: 0.3s ease;
+}
+.rimuru:hover {
+    filter: drop-shadow(8px 8px 12px #7CF5FF )
+}
+.Description {
+    margin-left: 5rem;
+    line-height: 2.4em;
+}
+h4 {
+    color: #00ccdd;
+    font-weight: 600;
+}
+h2 {
+    font-weight: 600px;
+    font-size: 40px;
+    color: #7CF5FF;
+    transition: 0.3s ease;
+}
+h2:hover {
+    color: #7CF5FF;
+    text-shadow: 0 0 25px #7CF5FF,
+                 0 0 50px #7CF5FF;
+}
+p {
+    width: 30em;
+    color: #ddfaf8;
+}
+.container {
+    display: flex;
+    width: 25em;
+}
+a button {
+    background-color: #00ccdd;
+    width: 12em;
+    padding: 16px;
+    border-style: none;
+    color: #1e201e;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    box-shadow: 0 0 5px #7CF5FF,
+    0 0 25px #7CF5FF;
+    transition: 0.3s ease;
+}
+a button:hover {
+    border-radius: 2em;
+    box-shadow: 0 0 5px #7CF5FF,
+    0 0 25px #7CF5FF, 0 0 50px #7CF5FF,
+    0 0px 100px #7CF5FF, 0 0 200px #7CF5FF;
+}
+a button:active {
+    scale: 0.8;
+    color: white;
+}
